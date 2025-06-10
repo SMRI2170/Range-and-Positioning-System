@@ -1,6 +1,4 @@
-# Range-and-Positioning-System
-This program uses YOLOv8 to detect people in real time and MiDaS to estimate depth (distance). It then calculates the position (X, Y, Z) in the camera coordinate system. The system captures video input from a webcam.
-以下は、あなたのプログラムに対応する `README.md` 用のMarkdownテンプレートです。GitHubにそのまま使える形式になっています。
+以下は、**そのままGitHubの`README.md`に貼り付けて使える**Markdown形式の全文です。`Author`セクションは省いてあります。
 
 ---
 
@@ -42,7 +40,7 @@ XYZ: (X.XX, Y.YY, Z.ZZ) m
 
 ````
 
-![example output](./example_output.jpg)  <!-- Add your own output image -->
+![example output](./example_output.jpg)  <!-- Replace with actual result image -->
 
 ---
 
@@ -65,7 +63,7 @@ git clone https://github.com/yourusername/yolo-midas-3d-localization.git
 cd yolo-midas-3d-localization
 ````
 
-### 2. Create and activate a virtual environment (optional but recommended)
+### 2. Create and activate a virtual environment (optional)
 
 ```bash
 python -m venv venv
@@ -79,8 +77,6 @@ venv\Scripts\activate     # for Windows
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install opencv-python numpy ultralytics
 ```
-
-> ⚠️ Make sure your system supports webcam access or adjust the `image_path` for static image input.
 
 ---
 
@@ -124,6 +120,11 @@ This repository uses components under the following licenses:
 * [YOLOv8 by Ultralytics](https://github.com/ultralytics/ultralytics) - GPL-3.0
 * [MiDaS by Intel ISL](https://github.com/intel-isl/MiDaS) - MIT
 
-Your own code may be distributed under MIT or other license of your choice.
+Your own code may be distributed under MIT or another compatible license.
+
+```
 
 ---
+
+必要があれば、**Webカメラ対応のコード例**や**日本語版README**も作成しますので、お気軽にどうぞ。
+```
